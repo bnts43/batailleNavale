@@ -8,9 +8,10 @@
 
 import Foundation
 
-enum CaseState {
+public enum CaseState {
     case white
     case red
+    case vide
 }
 
 struct CasePosition: Hashable {
@@ -27,15 +28,14 @@ struct CasePosition: Hashable {
         return 0
     }
     
-    
-    var state: CaseState?
     let line: Int // 0..<10
-    let column: Character // A, B...
-    
-    init(column column: Int, line line: Int) {
-        column = column
-        line = line
-    }
+    let column: Int // A, B...
+    var state: CaseState?
+
+//    init(column column: Int, line line: Int) {
+//        column = column
+//        line = line
+//    }
 }
 
 
