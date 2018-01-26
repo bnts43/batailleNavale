@@ -63,21 +63,29 @@
 		54417B802011D028009BD003 /* BatailleNavale */ = {
 			isa = PBXGroup;
 			children = (
+				54FAF5AF201B128D00AAEC97 /* view */,
 				54FAF5A6201B0EF900AAEC97 /* main.swift */,
-				54FAF5A8201B0F5400AAEC97 /* Model */,
+				54FAF5A8201B0F5400AAEC97 /* model */,
 			);
 			path = BatailleNavale;
 			sourceTree = "<group>";
 		};
-		54FAF5A8201B0F5400AAEC97 /* Model */ = {
+		54FAF5A8201B0F5400AAEC97 /* model */ = {
 			isa = PBXGroup;
 			children = (
 				54FAF5A9201B0F5400AAEC97 /* Ship.swift */,
 				54FAF5AA201B0F5400AAEC97 /* CasePosition.swift */,
 				54FAF5AB201B0F5400AAEC97 /* Plateau.swift */,
 			);
-			name = Model;
-			path = "../../../../../../../Volumes/beneuts/swift/tp2-3/BatailleNavale/BatailleNavale/Model";
+			name = model;
+			path = "../../../../../../../Volumes/beneuts/swift/tp2-3/BatailleNavale/BatailleNavale/model";
+			sourceTree = "<group>";
+		};
+		54FAF5AF201B128D00AAEC97 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
